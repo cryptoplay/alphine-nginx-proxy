@@ -1,7 +1,7 @@
 version: '2'
 services:
   nginx:
-    image: nginx:alpine
+    image: cryptoplay/alpine-nginx:0.13.0
     container_name: nginx
     ports:
       - "80:80"
